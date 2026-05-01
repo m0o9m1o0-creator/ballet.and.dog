@@ -2,6 +2,19 @@
    Ballet & Dogs — Main JavaScript
    ============================================ */
 
+// ── Background image fix (ensure correct path) ──
+(function() {
+  var img = new Image();
+  img.onload = function() {
+    document.body.style.backgroundImage = "url('/images/bg-sakura.jpg')";
+    document.body.style.backgroundSize = 'cover';
+    document.body.style.backgroundPosition = 'center top';
+    document.body.style.backgroundAttachment = 'fixed';
+    document.body.style.backgroundRepeat = 'no-repeat';
+  };
+  img.src = '/images/bg-sakura.jpg';
+})();
+
 // ── i18n Translations ──
 const T = {
   ja: {
