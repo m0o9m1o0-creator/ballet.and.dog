@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja" data-lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>商品カテゴリ — Ballet &amp; Dogs</title>
+  <meta name="description" content="バレリーナ×犬グッズのカテゴリ一覧。Tシャツ・バッグ・スマホケース・マグカップなど。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Noto+Serif+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-icon" viewBox="0 0 80 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="22" cy="9" r="4.5" fill="#3A2316"/>
+        <ellipse cx="22" cy="5" rx="3" ry="2.2" fill="#3A2316"/>
+        <rect x="20.5" y="13" width="3" height="3" rx="1" fill="#3A2316"/>
+        <path d="M19 16 L25 16 L24 26 L20 26 Z" fill="#3A2316"/>
+        <line x1="20" y1="18" x2="7" y2="8" stroke="#3A2316" stroke-width="1.8" stroke-linecap="round"/>
+        <circle cx="6" cy="7" r="2.2" fill="#3A2316"/>
+        <line x1="24" y1="18" x2="37" y2="8" stroke="#3A2316" stroke-width="1.8" stroke-linecap="round"/>
+        <circle cx="38" cy="7" r="2.2" fill="#3A2316"/>
+        <path d="M10 29 Q16 22 22 21 Q28 22 34 29 Q30 34 22 32 Q14 34 10 29 Z" fill="#3A2316"/>
+        <line x1="20" y1="32" x2="18" y2="47" stroke="#3A2316" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="24" y1="32" x2="26" y2="47" stroke="#3A2316" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M18 47 Q14 48 12 47" stroke="#3A2316" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+        <path d="M26 47 Q30 48 32 47" stroke="#3A2316" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+        <ellipse cx="60" cy="50" rx="11" ry="9" fill="#3A2316"/>
+        <circle cx="57" cy="37" r="9" fill="#3A2316"/>
+        <path d="M49 33 Q43 27 47 40 Q49 38 50 36 Z" fill="#3A2316"/>
+        <path d="M65 33 Q71 27 67 40 Q65 38 64 36 Z" fill="#3A2316"/>
+        <rect x="52" y="56" width="5" height="7" rx="2.5" fill="#3A2316"/>
+        <rect x="62" y="56" width="5" height="7" rx="2.5" fill="#3A2316"/>
+        <path d="M70 47 Q79 41 75 33" stroke="#3A2316" stroke-width="3" fill="none" stroke-linecap="round"/>
+      </svg>
+      Ballet &amp; Dogs
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" data-i18n="nav-home">ホーム</a></li>
+        <li><a href="index.html#about" data-i18n="nav-about">ブランドについて</a></li>
+        <li><a href="categories.html" class="active" data-i18n="nav-products">商品</a></li>
+        <li><a href="dogs.html" data-i18n="nav-dogs">犬種で探す</a></li>
+        <li><a href="index.html#shop" data-i18n="nav-shop">ショップ</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button class="lang-btn active" data-lang-btn="ja">日本語</button>
+      <button class="lang-btn" data-lang-btn="en">English</button>
+    </div>
+    <div class="header-icons">
+      <button aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobile-nav">
+  <a href="index.html" data-i18n="nav-home">ホーム</a>
+  <a href="categories.html" data-i18n="nav-products">商品</a>
+  <a href="dogs.html" data-i18n="nav-dogs">犬種で探す</a>
+  <a href="index.html#shop" data-i18n="nav-shop">ショップ</a>
+  <div class="lang-switch" style="margin-top:8px">
+    <button class="lang-btn active" data-lang-btn="ja">日本語</button>
+    <button class="lang-btn" data-lang-btn="en">English</button>
+  </div>
+</nav>
+
+<main>
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-content">
+      <div class="page-hero-emoji">🛍️</div>
+      <p class="page-title-jp" data-i18n="cats-title-jp">商品カテゴリ</p>
+      <h1 class="page-title-en" data-i18n="cats-title-en">Product Categories</h1>
+      <p class="page-subtitle" data-i18n="cats-subtitle">お気に入りのアイテムを見つけよう</p>
+    </div>
+  </div>
+
+  <!-- CATEGORIES GRID -->
+  <div class="page-content">
+    <div class="categories-grid">
+
+      <div class="category-card">
+        <div class="category-thumb">👕</div>
+        <div class="category-body">
+          <p class="category-name-jp" data-i18n="cat1-jp">Tシャツ</p>
+          <p class="category-name-en" data-i18n="cat1-en">T-shirt</p>
+          <p class="category-count">¥4,200〜</p>
+          <div class="category-links">
+            <a href="https://suzuri.jp/momoballetwill" target="_blank" rel="noopener" class="category-link jp" data-i18n="btn-jp">日本で購入</a>
+            <a href="https://www.redbubble.com/people/ballerinadogs" target="_blank" rel="noopener" class="category-link en" data-i18n="btn-en">Worldwide</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="category-thumb" style="background:#F5EDD8;">👜</div>
+        <div class="category-body">
+          <p class="category-name-jp" data-i18n="cat2-jp">トートバッグ</p>
+          <p class="category-name-en" data-i18n="cat2-en">Tote Bag</p>
+          <p class="category-count">¥3,200〜</p>
+          <div class="category-links">
+            <a href="https://suzuri.jp/momoballetwill" target="_blank" rel="noopener" class="category-link jp" data-i18n="btn-jp">日本で購入</a>
+            <a href="https://www.redbubble.com/people/ballerinadogs" target="_blank" rel="noopener" class="category-link en" data-i18n="btn-en">Worldwide</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="category-thumb">📱</div>
+        <div class="category-body">
+          <p class="category-name-jp" data-i18n="cat3-jp">スマホケース</p>
+          <p class="category-name-en" data-i18n="cat3-en">Smartphone Case</p>
+          <p class="category-count">¥2,800〜</p>
+          <div class="category-links">
+            <a href="https://suzuri.jp/momoballetwill" target="_blank" rel="noopener" class="category-link jp" data-i18n="btn-jp">日本で購入</a>
+            <a href="https://www.redbubble.com/people/ballerinadogs" target="_blank" rel="noopener" class="category-link en" data-i18n="btn-en">Worldwide</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="category-thumb" style="background:#FFDDE6;">👛</div>
+        <div class="category-body">
+          <p class="category-name-jp" data-i18n="cat4-jp">ポーチ</p>
+          <p class="category-name-en" data-i18n="cat4-en">Pouch</p>
+          <p class="category-count">¥2,600〜</p>
+          <div class="category-links">
+            <a href="https://suzuri.jp/momoballetwill" target="_blank" rel="noopener" class="category-link jp" data-i18n="btn-jp">日本で購入</a>
+            <a href="https://www.redbubble.com/people/ballerinadogs" target="_blank" rel="noopener" class="category-link en" data-i18n="btn-en">Worldwide</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="category-thumb" style="background:#FFF8F0;">☕</div>
+        <div class="category-body">
+          <p class="category-name-jp" data-i18n="cat5-jp">マグカップ</p>
+          <p class="category-name-en" data-i18n="cat5-en">Mug Cup</p>
+          <p class="category-count">¥2,000〜</p>
+          <div class="category-links">
+            <a href="https://suzuri.jp/momoballetwill" target="_blank" rel="noopener" class="category-link jp" data-i18n="btn-jp">日本で購入</a>
+            <a href="https://www.redbubble.com/people/ballerinadogs" target="_blank" rel="noopener" class="category-link en" data-i18n="btn-en">Worldwide</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="category-thumb" style="background:#F0F8FF;">🏷️</div>
+        <div class="category-body">
+          <p class="category-name-jp" data-i18n="cat6-jp">ステッカー</p>
+          <p class="category-name-en" data-i18n="cat6-en">Sticker</p>
+          <p class="category-count">¥500〜</p>
+          <div class="category-links">
+            <a href="https://suzuri.jp/momoballetwill" target="_blank" rel="noopener" class="category-link jp" data-i18n="btn-jp">日本で購入</a>
+            <a href="https://www.redbubble.com/people/ballerinadogs" target="_blank" rel="noopener" class="category-link en" data-i18n="btn-en">Worldwide</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="category-thumb" style="background:#F5F0E8;">📓</div>
+        <div class="category-body">
+          <p class="category-name-jp" data-i18n="cat7-jp">ノート</p>
+          <p class="category-name-en" data-i18n="cat7-en">Notebook</p>
+          <p class="category-count">¥1,400〜</p>
+          <div class="category-links">
+            <a href="https://suzuri.jp/momoballetwill" target="_blank" rel="noopener" class="category-link jp" data-i18n="btn-jp">日本で購入</a>
+            <a href="https://www.redbubble.com/people/ballerinadogs" target="_blank" rel="noopener" class="category-link en" data-i18n="btn-en">Worldwide</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="category-thumb" style="background:#FFF0F5;">🛋️</div>
+        <div class="category-body">
+          <p class="category-name-jp" data-i18n="cat8-jp">クッション</p>
+          <p class="category-name-en" data-i18n="cat8-en">Cushion</p>
+          <p class="category-count">¥4,500〜</p>
+          <div class="category-links">
+            <a href="https://suzuri.jp/momoballetwill" target="_blank" rel="noopener" class="category-link jp" data-i18n="btn-jp">日本で購入</a>
+            <a href="https://www.redbubble.com/people/ballerinadogs" target="_blank" rel="noopener" class="category-link en" data-i18n="btn-en">Worldwide</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /categories-grid -->
+
+    <div style="text-align:center;margin-top:56px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="dogs.html" class="btn-secondary" data-i18n="browse-dogs">🐾 犬種で探す</a>
+      <a href="https://suzuri.jp/momoballetwill" target="_blank" rel="noopener" class="btn-primary" data-i18n="cta-jp">🇯🇵 SUZURI で購入</a>
+    </div>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand-name">Ballet &amp; Dogs</p>
+        <p class="footer-brand-sub" data-i18n="footer-sub">バレリーナと犬のイラストグッズブランド</p>
+      </div>
+      <div>
+        <p class="footer-heading">Pages</p>
+        <ul class="footer-links">
+          <li><a href="index.html" data-i18n="nav-home">ホーム</a></li>
+          <li><a href="dogs.html" data-i18n="nav-dogs">犬種で探す</a></li>
+          <li><a href="categories.html" data-i18n="nav-products">商品カテゴリ</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Shop</p>
+        <ul class="footer-links">
+          <li><a href="https://suzuri.jp/momoballetwill" target="_blank" rel="noopener">SUZURI (日本)</a></li>
+          <li><a href="https://www.redbubble.com/people/ballerinadogs" target="_blank" rel="noopener">Redbubble (World)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Ballet &amp; Dogs. All rights reserved.</span>
+      <span style="color:rgba(255,255,255,0.35)">🩰 🐾 🌸</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
