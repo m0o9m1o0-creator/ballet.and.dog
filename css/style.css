@@ -519,6 +519,28 @@ button { font-family: inherit; }
   box-shadow: 0 4px 14px rgba(201,160,64,0.18);
 }
 
+.btn-instagram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 30px;
+  background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: white;
+  border-radius: var(--radius-btn);
+  font-family: var(--font-jp);
+  font-size: 0.88rem;
+  letter-spacing: 0.06em;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+.btn-instagram:hover {
+  opacity: 0.88;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(220,39,67,0.28);
+}
+
 /* ── イラストエリア 右 ── */
 .hero-visual {
   position: relative;
