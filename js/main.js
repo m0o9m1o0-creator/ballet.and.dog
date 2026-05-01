@@ -9,7 +9,7 @@
     document.body.style.backgroundImage = "url('/images/bg-sakura.jpg')";
     document.body.style.backgroundSize = 'cover';
     document.body.style.backgroundPosition = 'center top';
-    document.body.style.backgroundAttachment = 'fixed';
+    document.body.style.backgroundAttachment = window.innerWidth <= 960 ? 'scroll' : 'fixed';
     document.body.style.backgroundRepeat = 'no-repeat';
   };
   img.src = '/images/bg-sakura.jpg';

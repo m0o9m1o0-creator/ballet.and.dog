@@ -1256,6 +1256,9 @@ button { font-family: inherit; }
 }
 
 @media (max-width: 960px) {
+  body {
+    background-attachment: scroll;
+  }
   .hero-content {
     grid-template-columns: 1fr;
     min-height: auto;
