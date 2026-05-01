@@ -73,7 +73,7 @@ html {
 }
 body {
   font-family: var(--font-jp);
-  background: url('../画像/bg-sakura.jpg') center top / cover no-repeat fixed;
+  background: url('../images/bg-sakura.jpg') center top / cover no-repeat fixed;
   color: var(--brown-dark);
   line-height: 1.7;
   overflow-x: hidden;
