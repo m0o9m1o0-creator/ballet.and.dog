@@ -702,7 +702,7 @@ button { font-family: inherit; }
    PRODUCTS SECTION（フルページ下部）
    =================================================== */
 .products-section {
-  background: var(--cream);
+  background: rgba(255, 250, 245, 0.82);
   padding: 80px 40px 60px;
   position: relative;
 }
@@ -838,7 +838,7 @@ button { font-family: inherit; }
    ABOUT SECTION
    =================================================== */
 .about-section {
-  background: var(--pink-pale);
+  background: rgba(255, 235, 242, 0.75);
   padding: 80px 40px;
   position: relative;
   overflow: hidden;
@@ -909,7 +909,7 @@ button { font-family: inherit; }
    SHOP SECTION
    =================================================== */
 .shop-section {
-  background: var(--cream);
+  background: rgba(255, 250, 245, 0.82);
   padding: 80px 40px;
 }
 .shop-inner { max-width: 820px; margin: 0 auto; }
