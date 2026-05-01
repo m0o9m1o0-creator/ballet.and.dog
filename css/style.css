@@ -269,7 +269,7 @@ button { font-family: inherit; }
    =================================================== */
 .hero {
   position: relative;
-  min-height: 70vh;
+  min-height: 56vh;
   padding-top: 66px;
   overflow: hidden;
   display: flex;
@@ -384,7 +384,7 @@ button { font-family: inherit; }
   flex-direction: column;
   justify-content: center;
   /* 左側のショウジグリッド(21%)の後に始まるよう左パディングを広げる */
-  padding: 52px 32px 48px clamp(72px, 12vw, 160px);
+  padding: 20px 32px 32px clamp(72px, 12vw, 160px);
   position: relative;
   z-index: 12;
 }
