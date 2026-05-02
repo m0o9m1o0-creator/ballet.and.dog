@@ -390,13 +390,19 @@ button { font-family: inherit; }
 }
 
 /* タイトル画像 */
+.hero-title-wrap {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 0;
+  padding: 0 24px;
+  text-align: center;
+}
 .hero-title-img {
   width: 100%;
-  max-width: 680px;
   height: auto;
   display: block;
-  border-radius: 0;
-  margin-bottom: 20px;
   mix-blend-mode: multiply;
 }
 .hero-ornament,
