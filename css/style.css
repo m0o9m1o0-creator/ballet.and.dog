@@ -373,7 +373,7 @@ button { font-family: inherit; }
   position: relative;
   z-index: 10;
   display: grid;
-  grid-template-columns: 46% 54%;
+  grid-template-columns: 55% 45%;
   flex: 1;
   min-height: calc(100vh - 66px - 190px); /* product stripの分を引く */
 }
@@ -384,26 +384,18 @@ button { font-family: inherit; }
   flex-direction: column;
   justify-content: center;
   /* 左側のショウジグリッド(21%)の後に始まるよう左パディングを広げる */
-  padding: 20px 32px 32px clamp(72px, 12vw, 160px);
+  padding: 20px 24px 32px clamp(24px, 4vw, 48px);
   position: relative;
   z-index: 12;
 }
 
 /* タイトル画像 */
-.hero-title-wrap {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto 0;
-  padding: 0 24px;
-  text-align: center;
-}
 .hero-title-img {
   width: 100%;
   height: auto;
   display: block;
   mix-blend-mode: multiply;
+  margin-bottom: 16px;
 }
 .hero-ornament,
 .hero-tagline {
