@@ -392,10 +392,10 @@ button { font-family: inherit; }
 /* タイトル画像 */
 .hero-title-img {
   width: 100%;
-  max-width: 480px;
+  max-width: 560px;
   height: auto;
   display: block;
-  border-radius: 12px;
+  border-radius: 0;
   margin-bottom: 20px;
 }
 .hero-ornament,
